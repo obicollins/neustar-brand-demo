@@ -1,0 +1,2 @@
+import { ButtonLink, Eyebrow } from '@/components/Content';
+export default function NotFound(){return <section className="container not-found"><Eyebrow>A missing connection</Eyebrow><h1>This page took<br/><em>a different path.</em></h1><p>The address may have changed. Return to Neustar and explore the thinking, services and ideas behind our work.</p><ButtonLink href="/">Back to Neustar</ButtonLink></section>}
